@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Projeto Netflix</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- Header -->
+	<header>
+		<div class="container">
+				<div class="menu_desktop">
+					<div class="menu_desk_text">
+						<div class="menu_desk_logo">
+							<a href="#"><img src="images/logo_netflix.png" alt="Logo Netflix">
+							</a>
+						</div>
+						
+						<div class="menu_desk_ul">
+							<ul>
+								<li><a href="#">Início</a></li>								
+								<li><a href="#">Série</a></li>
+								<li><a href="#">Filmes</a></li>
+								<li><a href="#">Adicionadas recentemente</a></li>
+								<li><a href="#">Minha lista</a></li>
+							</ul>
+						</div>
+
+						<div class="menu_responsivo">
+							<div class="navegar">
+								<div>
+									<p>Navegar</p>	
+								</div>
+								
+								<div>
+									<i class="fa fa-caret-down" aria-hidden="true"></i>
+								</div>
+
+								<ul class="ul_navegar">
+									<li><a href="#">Início</a></li>								
+									<li><a href="#">Série</a></li>
+									<li><a href="#">Filmes</a></li>
+									<li><a href="#">Adicionadas recentemente</a></li>
+									<li><a href="#">Minha lista</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu_desktop_icons">
+						<div class="menu_search_icon">
+							<i class="fa fa-search"></i>						
+						</div>
+
+						<div class="menu_infantil">
+							<a href="#">Infantil</a>
+						</div>
+
+						<div class="menu_icon_gift">
+							<i><i class="fa fa-gift"></i></i>
+						</div>
+
+						<div class="menu_icon_bell">
+							<i class="fa fa-bell"><div class="bell_alert">
+								<span>9+</span></div>
+							</i>
+						</div>
+
+						<div class="menu_perfil">
+							<div class="perfil_image">
+							</div>
+							<i class="fa fa-caret-down" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+	</header>
+	<!-- End Header -->
+	<!-- Main -->
+	<main>
+		<!-- Section 1 - Série Destaque -->
+		<section class="serie_destaque">
+				<div class="container">
+					<div class="destaque_text">
+						<div class="destaque_logo">
+							<img src="images/daybreak_logo.png" >
+						</div>
+				
+						<div class="destaque_lancamento">
+							<p><span>Novo</span> 2019 <span>16</span> 1 Temporada</p>
+						</div>
+						
+						<div class="destaque_assita_agora">
+							<p>Assita à temporada 1 agora</p>
+						</div>	
+				
+						<div class="destaque_sinopese">
+							<p>Após o apocalipse, um garoto procura a amada em uma Los Angeles <br> tomada por zumbis no estilo Mad Max.</p>
+						</div>
+				
+						<div class="destaque_buttons">	
+							<button class="play_button"><i class="fa fa-play"></i> Assistir</button>
+							<button class="my_list_button"><i class="fa fa-plus" aria-hidden="true"></i>Minha Lista</button> 
+				
+							<div class="like_button">
+								<i class="fa fa-thumbs-o-up"></i>
+							</div>
+				
+							<div class="deslike_button">
+								<i class="fa fa-thumbs-o-down"></i>
+							</div>
+						</div>
+				
+						<div class="destque_informations">
+							<p><span>Estrelando:</span> Colin Ford, Alyn Lind, Sophie Simnett</p>
+							<p><span>Gêneros:</span> Séries baseadas em HQ, Séries teen, Comédias para a TV</p>
+							<p><span>Cenas e momentos:</span> Excêntricos, Irreverentes, Empolgantes</p>
+						</div>
+					</div>
+
+					<div class="destaque_options">
+						<div class="destaque_options_single selected">
+							<h2>Visão Geral</h2>
+							<div class="line_destaque_single"></div>
+						</div>
+				
+						<div class="destaque_options_single">
+							<h2>Episódios</h2>
+							<div class="line_destaque_single"></div>
+						</div>
+				
+						<div class="destaque_options_single">
+							<h2>Trailers e mais</h2>
+							<div class="line_destaque_single"></div>
+						</div>
+				
+						<div class="destaque_options_single">
+							<h2>Títulos Semelhantes</h2>
+							<div class="line_destaque_single"></div>
+						</div>
+				
+						<div class="destaque_options_single">
+							<h2>Detalhes</h2>
+							<div class="line_destaque_single"></div>
+						</div>
+					</div> 
+				</div>
+		</section>
+		<!-- End Section 1 -->
+		<!-- Section 02 - Continuar Assitindo -->
+		<section class="continuar_assistindo">
+			<div class="container">
+				<div class="section_title">
+					<h2>Continuar assitindo como Carlos</h2>
+				</div>
+		
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">    
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/arrow.jpg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div>          
+						
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/suits.jpeg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/daybreak_single.jpg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div> 
+	
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/arrow.jpg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div>          
+						
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/suits.jpeg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/daybreak_single.jpg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div> 
+	
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/arrow.jpg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div>          
+						
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/suits.jpeg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/daybreak_single.jpg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div> 
+	
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/arrow.jpg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div>          
+						
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/suits.jpeg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="swiper-slide">
+							<div class="videos_single">
+								<div class="videos_single_img" style="background-image: url(images/daybreak_single.jpg);"></div>
+				
+								<div class="videos_single_barra_tempo">
+									<div class="barra_tempo_assistido"></div>
+									<div class="barra_tempo_restante"></div>
+								</div>
+							</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Section 02 -->
+		<!-- Section 03 - Minha Lista -->
+		<section class="minha_lista">
+			<div class="container">
+				<div class="section_title">
+					<h2>Minha Lista</h2>
+				</div>
+				<div class="swiper mySwiper2">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="videos_single_img" style="background-image: url(images/arrow.jpg);"></div>
+						</div>
+	
+						<div class="swiper-slide">
+							<div class="videos_single_img" style="background-image: url(images/suits.jpeg);"></div>
+						</div>
+	
+						<div class="swiper-slide">
+							<div class="videos_single_img" style="background-image: url(images/daybreak_single.jpg);"></div>
+						</div>
+	
+						<div class="swiper-slide">
+							<div class="videos_single_img" style="background-image: url(images/arrow.jpg);"></div>
+						</div>
+	
+						<div class="swiper-slide">
+							<div class="videos_single_img" style="background-image: url(images/suits.jpeg);"></div>
+						</div>
+	
+						<div class="swiper-slide">
+							<div class="videos_single_img" style="background-image: url(images/daybreak_single.jpg);"></div>
+						</div>
+	
+						<div class="swiper-slide">
+							<div class="videos_single_img" style="background-image: url(images/arrow.jpg);"></div>
+						</div>
+	
+						<div class="swiper-slide">
+							<div class="videos_single_img" style="background-image: url(images/suits.jpeg);"></div>
+						</div>
+	
+						<div class="swiper-slide">
+							<div class="videos_single_img" style="background-image: url(images/daybreak_single.jpg);"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Section 03 -->
+	</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+	
+	var swiper = new Swiper(".mySwiper", {
+			slidesPerView: 3,     
+			centeredSlidesBounds: true,
+			centeredSlides: true,
+			spaceBetween: 0,
+			breakpoints: {
+			400: {
+                slidesPerView: 2,
+            },
+            
+			700: {
+                slidesPerView: 3,
+            },
+            
+			980: {
+              slidesPerView: 4,
+              spaceBetween: 10,
+            },
+            
+            1200: {
+              slidesPerView: 5,
+            },
+
+            1400 : {
+              slidesPerView: 6,
+            }
+          }
+		});
+			
+    var swiper2 = new Swiper(".mySwiper2", {
+      slidesPerView: 1,     
+      centeredSlidesBounds: true,
+      centeredSlides: true,
+      spaceBetween: 0,
+	  breakpoints: {
+			400: {
+                slidesPerView: 2,
+            },
+            
+			700: {
+                slidesPerView: 3,
+            },
+            
+			980: {
+              slidesPerView: 4,
+              spaceBetween: 10,
+            },
+            
+            1200: {
+              slidesPerView: 5,
+            },
+
+            1400 : {
+              slidesPerView: 6,
+            }
+          }
+    });
+
+</script>
+</body>
+</html>
+
